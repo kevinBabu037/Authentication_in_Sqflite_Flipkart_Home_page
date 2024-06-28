@@ -1,4 +1,4 @@
-import 'package:flipkart_home/core/height_width.dart';
+import 'package:flipkart_home/presentation/core/height_width.dart';
 import 'package:flutter/material.dart';
 
 class CategoriesWidget extends StatelessWidget {

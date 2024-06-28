@@ -1,12 +1,12 @@
-import 'package:flipkart_home/core/height_width.dart';
-import 'package:flipkart_home/views/screenhome/widgets/appbar.dart';
-import 'package:flipkart_home/views/screenhome/widgets/carousel.dart';
-import 'package:flipkart_home/views/screenhome/widgets/products_grid.dart';
-import 'package:flipkart_home/views/screenhome/widgets/products_row.dart';
-import 'package:flipkart_home/views/screenhome/widgets/search.dart';
+import 'package:flipkart_home/presentation/core/height_width.dart';
+import 'package:flipkart_home/presentation/views/screenhome/widgets/appbar.dart';
+import 'package:flipkart_home/presentation/views/screenhome/widgets/carousel.dart';
+import 'package:flipkart_home/presentation/views/screenhome/widgets/products_grid.dart';
+import 'package:flipkart_home/presentation/views/screenhome/widgets/products_row.dart';
+import 'package:flipkart_home/presentation/views/screenhome/widgets/search.dart';
 import 'package:flutter/material.dart';
-
 import 'widgets/categories.dart';
+
 
 class ScreenHome extends StatelessWidget {
   const ScreenHome({super.key});
@@ -27,10 +27,10 @@ class ScreenHome extends StatelessWidget {
               kHeight10,
               const CarouselWidget(),
               kHeight10,
-             const ProductsRowWidget(),
-             kHeight10,
-             const ProductsGridWidget(),
-             kHeight20 
+              const ProductsRowWidget(),
+              kHeight10,
+              const ProductsGridWidget(),
+              kHeight20 
             ],
           ),
         ),

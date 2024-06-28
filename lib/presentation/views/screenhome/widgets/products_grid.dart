@@ -1,4 +1,4 @@
-import 'package:flipkart_home/core/images.dart';
+import 'package:flipkart_home/presentation/core/images.dart';
 import 'package:flutter/material.dart';
 
 class ProductsGridWidget extends StatelessWidget {
